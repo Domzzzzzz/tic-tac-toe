@@ -1,0 +1,26 @@
+table {
+  height: 80%;
+  width: 80%;
+  table-layout: fixed;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 15px;
+  margin-bottom: 200px;
+}
+
+
+body {
+  background-color: black;
+  color: white;
+}
+
+/*background image is the grey background*/
+.gameField {
+  width: 180px;
+  height: 180px;
+  background-image: url(https://tse2.mm.bing.net/th?id=OIP.M24173ff528598a228f5d5a5a2e944ae2H0&pid=15.1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: solid 5px white;
+  background-position: center;
+}

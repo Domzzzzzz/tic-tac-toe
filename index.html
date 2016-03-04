@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script src="scripts.js"></script>
+
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+  <link rel="stylesheet" type="text/css" href="styles.css"/>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Tic-Tac-Toe</title>
+
+</head>
+<body>
+  <h1 class="text-center">Tic-Tac-Toe</h1>
+
+  <!--button to start game-->
+    <div class="text-center">
+      <button id="start" type="button" class="btn btn-default">Start a New Game</button>
+    </div> 
+
+  <!--button to reset game-->
+    <!-- <div class="text-center">
+      <button onClick="history.go(0)" type="button" class="btn btn-default">Reset Gameboard</button>
+    </div> -->
+
+<!--game table-->
+  <div class="container">
+    <table class="table table-bordered table-responsive">
+
+      <tr>
+        <td id="field1" class="gameField"></td>
+        <td id="field2" class="gameField"></td>
+        <td id="field3" class="gameField"></td>
+      </tr>
+
+      <tr>
+        <td id="field4" class="gameField"></td>
+        <td id="field5" class="gameField"></td>
+        <td id="field6" class="gameField"></td>
+      </tr>
+
+      <tr>
+        <td id="field7" class="gameField"></td>
+        <td id="field8" class="gameField"></td>
+        <td id="field9" class="gameField"></td>
+      </tr>
+
+    </table>
+  </div>
+
+
+
+
+</body>
+</html>
