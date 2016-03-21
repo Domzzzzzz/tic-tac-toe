@@ -15,6 +15,7 @@ body {
 }
 
 /*background image is the grey background*/
+/* this class is set unclickable */
 .gameField {
   width: 180px;
   height: 180px;
@@ -23,4 +24,6 @@ body {
   background-size: cover;
   border: solid 5px white;
   background-position: center;
+  /*pointer-events: none;
+  cursor: default;*/
 }

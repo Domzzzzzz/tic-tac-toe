@@ -12,10 +12,14 @@ $(document).ready(function(){
 
 
   //this function asks for players name and displays player vs player
+  //shows the gamefield 
   $("#start").click(function(){
     playerXName = prompt("Player 1 enter your name:");
     playerOName = prompt("Player 2 enter your name:");
     alert(playerXName + "(X) vs " + playerOName + "(O)");
+    $("#newGame").hide();
+    $("#start").hide();
+    $(".gameField").show();
 });
 
   //the series of functions below (fields 1-9) change the background-image of the square that is clicked
@@ -248,7 +252,7 @@ $(document).ready(function(){
   //this function checks if the game is a tie after each click
   //sets gameOver to true to trigger the CheckForGameOver function
   function checkForTie(num){
-    if(num === 9){
+    if(num === 9 && gameOver === false){
       alert("The game is a tie!");
       gameOver = true;
     }
